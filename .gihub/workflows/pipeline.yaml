@@ -18,7 +18,7 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: npm install # Lowercase 'i'
+        run: npm ci # Lowercase 'i'
 
       - name: Run tests
         run: npm test
